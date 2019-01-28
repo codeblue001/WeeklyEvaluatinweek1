@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg");
+font-weight: bold;
+}
+
+.main {
+text-align: center;
+}
+
+.section-one, label, p, h3 {
+  color: white;
+}
+
+input[type="text"] {
+    width: 100px;
+}
+
+.section-four {
+  font-size: 32px;
+  border: 1px solid black;
+  width: 120px;
+  margin: 0 auto;
+}
+
+#submit {
+  border-radius: 5px;
+}
+
+.section-one, .section-three {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+ {
+  padding-bottom: 10px;
+}
