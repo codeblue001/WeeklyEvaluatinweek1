@@ -1,6 +1,7 @@
 body {
   background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg");
 font-weight: bold;
+font-style: sans-serif;
 }
 
 .main {
@@ -33,4 +34,10 @@ input[type="text"] {
 
  {
   padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    color: black;
+  }
 }
