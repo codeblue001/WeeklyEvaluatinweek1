@@ -1,28 +1,35 @@
-.main {
-  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg");
-  font-weight: bold;
-  font-style: sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+.cloudy {
+    background: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    text-align: center;
 }
 
-.windy {
-  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg");
-  font-weight: bold;
-  font-style: sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
+.rainy {
+  background: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
   text-align: center;
 }
 
 .sunny {
-  background-image: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg");
-  font-weight: bold;
-  font-style: sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
   text-align: center;
+  background-size: cover;
 }
 
 
